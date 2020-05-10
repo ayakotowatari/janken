@@ -30,7 +30,7 @@ a,ul{
 @media screen and (min-width:1024px){
 
     body{
-        max-width:640px;
+        max-width:860px;
     }
 
 }
@@ -52,7 +52,7 @@ a,ul{
     margin-bottom: 2em;
 }
 
-.img-jkn{
+.start-jkn{
     width:33.333%;
 }
 
@@ -73,6 +73,12 @@ a,ul{
     cursor:pointer;
 }
 
+@media screen and (min-width:1024px){
+    .start-img{
+        margin-bottom: 4rem;
+    }
+}
+
 /* -------------
 *   main-body
 --------------- */
@@ -85,7 +91,7 @@ a,ul{
     font-weight:bolder;
     letter-spacing:0.05em;
     margin-bottom: 20px;
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 .sub-title{
@@ -97,22 +103,37 @@ a,ul{
     display:flex;
     justify-content:center; 
     align-items:center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 
 }
 
-.count-num, .vs{
-    font-size: 2rem;
+.count-num{
+    font-size: 4rem;
+    font-weight:lighter;
     width:13.333%;
 }
 
-.jkn-hands{
+.vs{
+    font-size: 2rem;
+    width: 13.333%;
+}
+
+/* .jkn-hands{
     display:flex;
     justify-content: space-between;
+} */
+
+.my-hands{
+    display:flex;
+    margin-bottom: 40px;
+}
+
+.pc-hands{
+    display:flex;
 }
 
 .img-jkn{
-    width:43.333%;
+    width:62.333%;
     height:auto;
     margin-bottom: 30px;
 }
@@ -124,24 +145,26 @@ a,ul{
 @media screen and (min-width:1024px){
     .main-title{
         font-size: 4.8rem;
-        margin-bottom: 40px;
-        padding-top: 80px;
+        margin-bottom: 30px;
+        padding-top: 40px;
     }
     .sub-title{
         font-size: 2.4rem;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
     .count-num, .vs{
         font-size: 4.8rem;
-        margin-bottom: 40px;
-    }
-    .jkn-hands{
-        display:block;
+        margin-bottom: 30px;
     }
 
-    .my-hands,.pc-hands{
-        display:flex;
+    .my-hands{
+        margin-bottom: 30px;
     }
+
+    .img-jkn{
+        width:50%;
+    }
+
 }
 
 /* -------------
